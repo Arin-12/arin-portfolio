@@ -91,7 +91,7 @@ export const projects: Project[] = [
     architecture: ["Resume image or text", "OCR (Tesseract, OpenCV)", "Skill extraction", "Semantic matching", "ATS score and report"],
     result: "Live on Streamlit Cloud. The README reports about 2–4 seconds per resume and roughly 85–90% OCR accuracy on clear resumes.",
     stack: ["Python", "Sentence-Transformers", "Tesseract", "OpenCV", "Scikit-learn", "Streamlit"],
-    metric: { value: "2–4 s", label: "per resume, as reported in the README" },
+    metric: { value: "2–4 s", label: "per resume" },
     links: [
       { label: "Open live demo", url: "https://smart-resume-screener-eeee2dun6rtutk7gjn7er5.streamlit.app/", primary: true },
       { label: "View code", url: "https://github.com/Arin-12/smart-resume-screener" },
